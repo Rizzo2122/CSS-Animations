@@ -42,12 +42,13 @@
   animation-duration: 10s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes sale-bar {
   0% { background-color: lightgreen; width: 450px }
   25% {background-color: lightsalmon; width: 100px}
-  75% { background-color: #FF033E; width: 125x; border-radius: 0%; transform: scale(1); }
-  100% { background-color: crimson; width: 10px; border-radius: 100%; transform: scale(0) }
+  75% { background-color: #FF033E; width: 125x; border-radius: 0%; transform: scale(1);}
+  100% { background-color: crimson; width: 10px; border-radius: 100%; transform: scale(0)}
 }
 
