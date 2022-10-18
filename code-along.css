@@ -7,6 +7,8 @@
   width: 20%;
   margin: auto;
   display: inline-block;
+  transform: translateX(150px);
+  opacity: 0.5;
 }
 
 /****************************************
@@ -18,11 +20,12 @@
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
-
+  transition-duration: 2s;
 }
 
 .transition-demo img:hover {
-
+  filter: none;
+  transform: rotate(360deg);
 }
 
 /****************************************
@@ -43,3 +46,4 @@
   75% { background-color: #FF033E; width: 125x }
   100% { background-color: crimson; width: 10px }
 }
+
